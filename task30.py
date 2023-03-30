@@ -8,10 +8,10 @@ def ArithmeticProgress (elem, diff, num):
     for i in range (num):
         progressArray.append(elem+i*diff)
     return progressArray
-element = int(input("Input the first element of your array  "))
+element1 = int(input("Input the first element of your array  "))
 number = int(input("Input the number of elements   "))
 difference = int(input("Input the difference between the elements  "))
-result = ArithmeticProgress (element, difference, number)
+result = ArithmeticProgress (element1, difference, number)
 print (result)
 
 
