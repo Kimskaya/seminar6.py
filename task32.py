@@ -14,8 +14,8 @@ for j in range (arrLen):
 print (*myArr)
 minValue= int(input("Input the minimum value   "))
 maxValue = int(input("Input the maximum value  "))
-result= []
-result= CheckValue (myArr, minValue, maxValue)
+
+CheckValue (myArr, minValue, maxValue)
 
 
 
